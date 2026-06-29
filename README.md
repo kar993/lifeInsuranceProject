@@ -89,8 +89,6 @@ adk run .
 
 - This is an advisory demo system, not a real underwriting engine.
 - Chat mode requires a valid `GOOGLE_API_KEY`.
-- Structured analysis works offline once models are trained.
-- Model files are generated locally and are not committed to source control.
 
 ## References
 
