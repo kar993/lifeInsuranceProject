@@ -43,25 +43,11 @@ copy backend\.env.example backend\.env
 
 Set `GOOGLE_API_KEY` in `backend/.env`.
 
-3. Train the ML models (required before running analysis):
-
-```bash
-cd backend
-python scripts/train_models.py
-```
-
-4. Run tests:
-
-```bash
-cd backend
-pytest tests/ -q
-```
-
 ## Run the Application
 
 ### Streamlit UI (recommended)
 
-From the project root:
+From the `frontend` direrctory:
 
 ```bash
 streamlit run streamlit_app.py
