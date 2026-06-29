@@ -1,0 +1,7 @@
+medical_condition,extra_loading
+Diabetes,0.35
+Hypertension,0.2
+Asthma,0.1
+Heart Disease,0.75
+Cancer History,0.9
+None,0.0

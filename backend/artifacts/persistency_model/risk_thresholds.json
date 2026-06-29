@@ -1,0 +1,21 @@
+{
+    "classification_threshold": 0.5,
+    "risk_categories": {
+        "Low": [
+            0,
+            25
+        ],
+        "Medium": [
+            26,
+            50
+        ],
+        "High": [
+            51,
+            75
+        ],
+        "Severe": [
+            76,
+            100
+        ]
+    }
+}

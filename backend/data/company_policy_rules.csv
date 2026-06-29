@@ -1,0 +1,21 @@
+rule_id,rule_name,rule_category,condition,action,severity,notes
+R001,Minimum Entry Age,Eligibility,age < 18,Reject,High,Applicant below minimum eligible age
+R002,Maximum Entry Age,Eligibility,age > 65,Reject,High,Applicant exceeds maximum eligible age
+R003,Minimum Coverage,Eligibility,coverage_amount < 500000,Reject,High,Coverage below company minimum
+R004,Maximum Coverage,Eligibility,coverage_amount > 50000000,Manual_Review,Medium,Large coverage request requires review
+R005,Policy Term Restriction,Eligibility,policy_term > (100 - age),Reject,High,Policy term exceeds allowable limit
+R006,Low Mortality Risk,Underwriting,mortality_risk_score <= 25,Preferred_Rate,Low,Eligible for preferred pricing
+R007,Moderate Mortality Risk,Underwriting,mortality_risk_score > 25 AND mortality_risk_score <= 50,Premium_Loading,Medium,Additional premium loading required
+R008,High Mortality Risk,Underwriting,mortality_risk_score > 50 AND mortality_risk_score <= 75,Manual_Review,High,Elevated risk requires underwriting review
+R020,Severe Mortality Risk,Underwriting,mortality_risk_score > 75,Reject,High,Risk exceeds company threshold
+R009,Poor Health Status,Underwriting,health_status == 'Poor',Premium_Loading,Medium,Additional underwriting loading
+R010,High Risk Occupation,Underwriting,occupation_risk == 'High',Premium_Loading,Medium,Occupation-based loading
+R011,Extreme BMI,Underwriting,bmi < 16 OR bmi > 40,Manual_Review,Medium,Requires underwriting assessment
+R012,Senior Applicant,Medical,age > 60,Medical_Required,Medium,Medical examination required
+R013,Large Sum Assured,Medical,coverage_amount > 20000000,Medical_Required,Medium,High-value policies require medical evidence
+R014,Low Risk Customer,Recommendation,customer_risk_profile == 'Low',Recommend_Low_Risk_Products,Low,Recommend guaranteed/traditional plans
+R015,Medium Risk Customer,Recommendation,customer_risk_profile == 'Medium',Recommend_Medium_Risk_Products,Low,Recommend participating products
+R016,High Risk Customer,Recommendation,customer_risk_profile == 'High',Recommend_High_Risk_Products,Low,Recommend market-linked products
+R017,ULIP Suitability,Recommendation,customer_risk_profile == 'Low' AND product_type == 'ULIP',Not_Recommended,Low,Product risk exceeds customer preference
+R018,Preferred Customer Discount,Pricing,mortality_risk_score <= 25,Premium_Discount,Low,Preferred customer pricing
+R019,Young Applicant Discount,Pricing,age < 30,Premium_Discount,Low,Young applicant pricing benefit

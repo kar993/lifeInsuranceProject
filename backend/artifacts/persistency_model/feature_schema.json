@@ -1,0 +1,26 @@
+{
+    "numerical_features": [
+        "age",
+        "annual_income",
+        "dependents",
+        "coverage_amount",
+        "premium_amount",
+        "policy_term",
+        "premium_income_ratio",
+        "coverage_income_ratio",
+        "coverage_adequacy_ratio",
+        "years_since_issue"
+    ],
+    "categorical_features": [
+        "product_type",
+        "payment_mode",
+        "payment_mode_preference"
+    ],
+    "binary_features": [
+        "autopay_enabled",
+        "autopay_preference",
+        "payment_mode_matches_preference",
+        "autopay_matches_preference"
+    ],
+    "target": "lapse_flag"
+}

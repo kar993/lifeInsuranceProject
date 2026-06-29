@@ -1,0 +1,11 @@
+pandas
+numpy
+matplotlib
+seaborn
+google-adk
+reportlab
+streamlit
+python-dotenv
+pytest
+scikit-learn
+joblib

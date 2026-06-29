@@ -1,0 +1,14 @@
+rule_id,rule_name,rule_type,decision,field,operator,value,reason
+R001,Minimum Age Check,AGE,DECLINE,age,<,18,Applicant below minimum entry age.
+R002,Maximum Age Check,AGE,DECLINE,age,>,70,Applicant exceeds maximum entry age.
+R003,Senior Applicant Review,AGE,REFER,age,>,60,Senior applicant requires underwriting review.
+R004,Minimum Coverage Check,COVERAGE,DECLINE,desired_coverage,<,100000,Coverage below minimum policy threshold.
+R005,High Coverage Review,COVERAGE,REFER,desired_coverage,>,50000000,Coverage exceeds automatic approval limit.
+R006,Severe Obesity Review,BMI,REFER,bmi,>=,40,Severe obesity requires underwriting review.
+R007,Low BMI Review,BMI,REFER,bmi,<,16,Extremely low BMI requires underwriting review.
+R008,Heart Disease Review,MEDICAL,REFER,heart_disease,==,True,Heart disease requires manual underwriting review.
+R009,Cancer History Review,MEDICAL,REFER,cancer_history,==,True,Cancer history requires manual underwriting review.
+R010,Multiple Conditions Review,MEDICAL,REFER,condition_count,>=,3,Multiple medical conditions require manual underwriting review.
+R011,Senior Smoker Review,LIFESTYLE,REFER,senior_smoker,==,True,Senior smoker requires manual underwriting review.
+R012,High Coverage-Income Ratio Review,FINANCIAL,REFER,coverage_income_ratio,>,25,Requested coverage significantly exceeds income multiple.
+R013,High Debt Burden Review,FINANCIAL,REFER,debt_income_ratio,>,5,Debt burden exceeds acceptable threshold.

@@ -1,0 +1,5 @@
+health_status,mortality_multiplier
+Excellent,0.85
+Good,1.0
+Average,1.25
+Poor,1.75

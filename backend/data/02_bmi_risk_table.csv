@@ -1,0 +1,9 @@
+bmi_min,bmi_max,category,mortality_multiplier
+0.0,16.0,Severe Thinness,1.75
+16.0,17.0,Moderate Thinness,1.45
+17.0,18.5,Mild Thinness,1.2
+18.5,25.0,Normal Weight,1.0
+25.0,30.0,Overweight,1.15
+30.0,35.0,Obese Class I,1.5
+35.0,40.0,Obese Class II,2.0
+40.0,99.0,Obese Class III (Morbid),2.75

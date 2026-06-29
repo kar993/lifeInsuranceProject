@@ -1,0 +1,29 @@
+{
+    "model_version": "1.0",
+    "model_type": "mortality_prediction",
+    "algorithm": "LogisticRegression",
+    "training_rows": 50000,
+    "features": [
+        "age",
+        "bmi",
+        "bmi_squared",
+        "gender",
+        "occupation_risk",
+        "alcohol_use",
+        "exercise_level",
+        "smoker_status",
+        "diabetes",
+        "hypertension",
+        "heart_disease",
+        "respiratory_disease",
+        "cancer_history"
+    ],
+    "target": "mortality_event",
+    "event_rate": 0.00904,
+    "cross_validation": {
+        "folds": 5,
+        "strategy": "StratifiedKFold",
+        "shuffle": true,
+        "random_state": 42
+    }
+}

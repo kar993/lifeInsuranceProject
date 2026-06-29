@@ -1,0 +1,11 @@
+rule_id,rule_name,rule_type,input_field,condition,value,output_field,output_value,description
+CR001,No Dependents Multiplier,INCOME_REPLACEMENT,dependents,==,0,income_multiplier,8,Use 8x annual income when no dependents exist.
+CR002,One Dependent Multiplier,INCOME_REPLACEMENT,dependents,==,1,income_multiplier,10,Use 10x annual income when one dependent exists.
+CR003,Two Dependents Multiplier,INCOME_REPLACEMENT,dependents,==,2,income_multiplier,12,Use 12x annual income when two dependents exist.
+CR004,Three Or More Dependents Multiplier,INCOME_REPLACEMENT,dependents,>=,3,income_multiplier,15,Use 15x annual income when three or more dependents exist.
+CR005,Debt Protection Addition,DEBT_PROTECTION,outstanding_loans,>=,0,debt_protection,ADD_LOANS,Outstanding loans should be added to total coverage need.
+CR006,Existing Coverage Offset,EXISTING_COVERAGE,existing_life_coverage,>=,0,coverage_offset,SUBTRACT_EXISTING,Existing life coverage reduces additional coverage needed.
+CR007,Minimum Coverage Range,COVERAGE_RANGE,total_need,>=,0,minimum_factor,0.80,Minimum recommended coverage equals 80 percent of total need.
+CR008,Recommended Coverage Range,COVERAGE_RANGE,total_need,>=,0,recommended_factor,1.00,Recommended coverage equals total need.
+CR009,Stretch Coverage Range,COVERAGE_RANGE,total_need,>=,0,stretch_factor,1.20,Stretch coverage equals 120 percent of total need.
+CR010,Maximum Coverage Income Multiple,COVERAGE_GUARDRAIL,coverage_income_ratio,>,25,review_flag,REFER,Requested coverage exceeds 25 times annual income.

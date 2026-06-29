@@ -1,0 +1,22 @@
+{
+    "numeric": [
+        "age",
+        "bmi",
+        "bmi_squared"
+    ],
+    "categorical": [
+        "gender",
+        "occupation_risk",
+        "alcohol_use",
+        "exercise_level"
+    ],
+    "binary": [
+        "smoker_status",
+        "diabetes",
+        "hypertension",
+        "heart_disease",
+        "respiratory_disease",
+        "cancer_history"
+    ],
+    "target": "mortality_event"
+}

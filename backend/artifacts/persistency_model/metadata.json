@@ -1,0 +1,8 @@
+{
+    "model_version": "v1.0",
+    "random_seed": 42,
+    "training_timestamp": "2026-06-23 13:25:20.567575",
+    "dataset_rows": 50000,
+    "dataset_columns": 31,
+    "sklearn_version": "1.9.0"
+}

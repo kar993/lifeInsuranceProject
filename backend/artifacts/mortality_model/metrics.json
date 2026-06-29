@@ -1,0 +1,10 @@
+{
+    "model_name": "Mortality Prediction Model V1",
+    "algorithm": "Logistic Regression",
+    "cv_roc_auc_mean": 0.817012,
+    "cv_roc_auc_std": 0.024185,
+    "cv_pr_auc_mean": 0.077987,
+    "cv_pr_auc_std": 0.027538,
+    "cv_brier_mean": 0.008685,
+    "cv_brier_std": 0.000147
+}

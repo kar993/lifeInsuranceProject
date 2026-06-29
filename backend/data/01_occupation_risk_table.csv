@@ -1,0 +1,46 @@
+occupation,risk_level,risk_multiplier
+Software Engineer,Low,1.0
+Accountant,Low,1.0
+Bank Employee,Low,1.0
+Teacher,Low,1.0
+Government Clerk,Low,1.0
+Lawyer,Low,1.05
+Chartered Accountant,Low,1.0
+HR Manager,Low,1.0
+Marketing Executive,Low,1.0
+Doctor (Clinic-based),Low,1.1
+College Professor,Low,1.0
+Data Analyst,Low,1.0
+Architect (Office-based),Low,1.05
+Insurance Agent,Low,1.05
+Customer Support Executive,Low,1.0
+Sales Representative (Field),Medium,1.25
+Civil Engineer (Site Visits),Medium,1.35
+Delivery Executive,Medium,1.4
+Restaurant Chef,Medium,1.2
+Journalist (Field Reporter),Medium,1.3
+Electrician,Medium,1.45
+Plumber,Medium,1.4
+Real Estate Agent,Medium,1.2
+Bus Driver,Medium,1.5
+Taxi/Cab Driver,Medium,1.45
+Farmer,Medium,1.35
+Mechanic,Medium,1.4
+Security Guard,Medium,1.3
+Event Manager,Medium,1.2
+Fitness Trainer,Medium,1.15
+Construction Worker,High,2.0
+Miner,High,2.75
+Commercial Pilot,High,1.9
+Merchant Navy / Sailor,High,2.2
+Fire Fighter,High,2.3
+Police Officer (Field Duty),High,1.8
+Armed Forces Personnel (Combat),High,2.5
+Oil Rig Worker,High,2.6
+Demolition Worker,High,2.4
+Stunt Performer,High,2.8
+Explosives Handler,High,3.0
+Deep Sea Diver,High,2.7
+High-Rise Window Cleaner,High,2.2
+Racing Driver (Professional),High,2.6
+Logger / Forestry Worker,High,2.1

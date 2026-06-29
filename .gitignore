@@ -1,0 +1,13 @@
+.env.*
+.env
+
+__pycache__/
+.agents/
+.codex/
+.venv/
+
+.pytest_cache/
+.adk/
+*/.adk/
+
+Plan_markdowns/
